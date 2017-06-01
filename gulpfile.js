@@ -72,6 +72,7 @@ gulp.task("build:settings", function() {
     .pipe($.flatmap(function(stream, file) {
       var iconName = path.basename(file.path, path.extname(file.path));
       var iconOpts = opts.icons[iconName];
+      console.log(iconName)
       var iconScope = getIconScope(iconOpts);
       var iconAliases = iconOpts.aliases;
       var iconSettings = merge();
@@ -121,6 +122,10 @@ gulp.task("build:settings", function() {
 
 gulp.task("build:icons", function() {
   var baseColor = $.recolorSvg.ColorMatcher(color("#000"));
+  var color2 = $.recolorSvg.ColorMatcher(color("#111")),
+    color3 = $.recolorSvg.ColorMatcher(color("#222")),
+    color4 = $.recolorSvg.ColorMatcher(color("#333"))
+  ;
 
   opts.icons = getIconOpts();
 
@@ -134,6 +139,11 @@ gulp.task("build:icons", function() {
       var iconName = path.basename(file.path, path.extname(file.path));
       var iconOpts = opts.icons[iconName];
       var iconColor = color(opts.colors[iconOpts.color]);
+      var iconColor2 = color(opts.colors[iconOpts.color2]);
+      var iconColor3 = color(opts.colors[iconOpts.color3]);
+      var iconColor4 = color(opts.colors[iconOpts.color4]);
+
+
 
       var iconImages = merge();
 
@@ -142,6 +152,18 @@ gulp.task("build:icons", function() {
           .pipe($.recolorSvg.Replace(
             [baseColor],
             [iconColor]
+          ))
+          .pipe($.recolorSvg.Replace(
+            [color2],
+            [iconColor2]
+          ))
+          .pipe($.recolorSvg.Replace(
+            [color3],
+            [iconColor3]
+          ))
+          .pipe($.recolorSvg.Replace(
+            [color4],
+            [iconColor4]
           ))
           .pipe($.svg2png({
             width: size.size,

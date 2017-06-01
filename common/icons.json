@@ -1,4 +1,7 @@
 {
+  "test":{
+    "color": "green"
+  },
   "file_type_access": {
     "color": "red",
     "aliases": [
@@ -49,7 +52,7 @@
   },
   "file_type_ai": {
     "color": "orange",
-    "aliases":[
+    "aliases": [
       {
         "name": "Plain Text (Adobe Illustrator)",
         "extensions": [
@@ -60,8 +63,21 @@
       }
     ]
   },
-  "file_type_angular": {
-    "color": "pink",
+  "file_type_akka": {
+    "color": "cyan",
+    "aliases": [
+      {
+        "name": "Akka",
+        "extensions": [
+          "akka"
+        ],
+        "base": "text.plain",
+        "scope": "text.plain.akka"
+      }
+    ]
+  },
+  "angular": {
+    "color": "angular",
     "syntaxes": [
       {
         "name": "Angular​JS",
@@ -78,9 +94,36 @@
       }
     ]
   },
-  "file_type_archive": {
+  "file_type_ada": {
     "color": "graphite",
-    "aliases":[
+    "syntaxes": [
+      {
+        "name": "Ada",
+        "scope": "source.ada"
+      }
+    ]
+  },
+  "file_type_android": {
+    "color": "green",
+    "syntaxes": [
+      {
+        "name": "Android",
+        "scope": "source.android"
+      }
+    ]
+  },
+  "file_type_ansible": {
+    "color": "red2",
+    "syntaxes": [
+      {
+        "name": "Ansible",
+        "scope": "source.ansible"
+      }
+    ]
+  },
+  "file_type_archive": {
+    "color": "purple2",
+    "aliases": [
       {
         "name": "Plain Text (Archive)",
         "extensions": [
@@ -102,7 +145,7 @@
   },
   "file_type_audio": {
     "color": "red",
-    "aliases":[
+    "aliases": [
       {
         "name": "Plain Text (Audio)",
         "extensions": [
@@ -128,6 +171,15 @@
       }
     ]
   },
+  "file_type_aurelia": {
+    "color": "pink2",
+    "syntaxes": [
+      {
+        "name": "Aurelia",
+        "scope": "source.aurelia"
+      }
+    ]
+  },
   "file_type_babel": {
     "color": "yellow",
     "aliases": [
@@ -142,8 +194,41 @@
       }
     ]
   },
+  "file_type_bazel": {
+    "color": "green",
+    "syntaxes": [
+      {
+        "name": "Bazel",
+        "scope": "source.bazel"
+      }
+    ]
+  },
   "file_type_binary": {
     "color": "graphite"
+  },
+  "file_type_cmake": {
+    "color": "blue"
+  },
+  "file_type_bundle": {
+    "color": "purple"
+  },
+  "file_type_cakephp": {
+    "color": "brown"
+  },
+  "file_type_eclipse": {
+    "color": "purple"
+  },
+  "file_type_emacs": {
+    "color": "yellow"
+  },
+  "file_type_ember": {
+    "color": "orange2"
+  },
+  "file_type_fsharp": {
+    "color": "sky"
+  },
+  "file_type_db": {
+    "color": "orange2"
   },
   "file_type_blade": {
     "color": "orange",
@@ -154,9 +239,44 @@
       }
     ]
   },
+  "file_type_flow": {
+    "color": "green2"
+  },
+  "file_type_cordova": {
+    "color": "sky"
+  },
+  "file_type_aws": {
+    "color": "orange"
+  },
+  "file_type_idea": {
+    "color": "cyan",
+    "color2": "red",
+    "color3": "yellow"
+  },
+  "file_type_graphql": {
+    "color": "purple"
+  },
+  "file_type_diff": {
+    "color": "paleblue"
+  },
+  "file_type_drupal": {
+    "color": "cyan"
+  },
+  "file_type_hack": {
+    "color": "brown"
+  },
+  "file_type_joomla": {
+    "color": "cyan2"
+  },
+  "file_type_jest": {
+    "color": "red"
+  },
+  "file_type_ionic": {
+    "color": "blue2"
+  },
   "file_type_bower": {
     "color": "yellow",
-    "aliases":[
+    "aliases": [
       {
         "name": "JSON (Bower)",
         "linter": "json",
@@ -184,7 +304,7 @@
   },
   "file_type_circleci": {
     "color": "graphite",
-    "aliases":[
+    "aliases": [
       {
         "name": "YAML (CircleCI)",
         "linter": "yaml",
@@ -218,8 +338,8 @@
       }
     ]
   },
-  "file_type_coffeescript": {
-    "color": "orange",
+  "coffeescript": {
+    "color": "brown",
     "syntaxes": [
       {
         "name": "CoffeeScript",
@@ -261,7 +381,7 @@
     ]
   },
   "file_type_css": {
-    "color": "blue",
+    "color": "cyan2",
     "syntaxes": [
       {
         "name": "CSS",
@@ -422,7 +542,7 @@
     ]
   },
   "file_type_ex": {
-    "color": "purple",
+    "color": "purple2",
     "syntaxes": [
       {
         "name": "Elixir",
@@ -448,8 +568,8 @@
     ]
   },
   "file_type_font": {
-    "color": "green",
-    "aliases":[
+    "color": "graphite",
+    "aliases": [
       {
         "name": "Plain Text (Font)",
         "extensions": [
@@ -465,7 +585,7 @@
     ]
   },
   "file_type_git": {
-    "color": "orange",
+    "color": "git",
     "syntaxes": [
       {
         "name": "GitSyntaxes",
@@ -535,7 +655,7 @@
     ]
   },
   "file_type_gruntfile": {
-    "color": "orange",
+    "color": "grunt",
     "aliases": [
       {
         "name": "JavaScript (Gruntfile)",
@@ -549,7 +669,7 @@
     ]
   },
   "file_type_gulpfile": {
-    "color": "pink",
+    "color": "gulp",
     "aliases": [
       {
         "name": "JavaScript (Gulpfile)",
@@ -600,7 +720,7 @@
     ]
   },
   "file_type_html": {
-    "color": "orange",
+    "color": "grunt",
     "syntaxes": [
       {
         "name": "HTML",
@@ -630,7 +750,7 @@
     ]
   },
   "file_type_java": {
-    "color": "red",
+    "color": "purple2",
     "syntaxes": [
       {
         "name": "Java",
@@ -666,13 +786,125 @@
     ]
   },
   "file_type_jsx": {
-    "color": "blue",
+    "color": "green2",
     "syntaxes": [
       {
         "name": "JSX",
         "scope": "source.js.jsx"
       }
     ]
+  },
+  "file_type_karma": {
+    "color": "green2"
+  },
+  "file_type_knockout": {
+    "color": "red"
+  },
+  "file_type_magento": {
+    "color": "pink2"
+  },
+  "file_type_mercurial": {
+    "color": "cyan2"
+  },
+  "file_type_meteor": {
+    "color": "brown"
+  },
+  "file_type_mongodb": {
+    "color": "graphite"
+  },
+  "file_type_nodemon": {
+    "color": "red"
+  },
+  "file_type_play": {
+    "color": "green"
+  },
+  "file_type_fontforge": {
+    "color": "white"
+  },
+  "file_type_nuclide": {
+    "color": "violet"
+  },
+  "file_type_nuget": {
+    "color": "brown"
+  },
+  "file_type_p4": {
+    "color": "yellow"
+  },
+  "file_type_pascal": {
+    "color": "pink2"
+  },
+  "file_type_polymer": {
+    "color": "blue2"
+  },
+  "file_type_protractor": {
+    "color": "orange2"
+  },
+  "file_type_purescript": {
+    "color": "purple"
+  },
+  "file_type_rdoc": {
+    "color": "graphite"
+  },
+  "file_type_redis": {
+    "color": "red"
+  },
+  "file_type_redux": {
+    "color": "green2"
+  },
+  "file_type_textmate": {
+    "color": "violet"
+  },
+  "file_type_unreal": {
+    "color": "red",
+    "color2": "yellow"
+  },
+  "file_type_v8": {
+    "color": "blue"
+  },
+  "file_type_vagrant": {
+    "color": "cyan"
+  },
+  "file_type_wordpress": {
+    "color": "paleblue"
+  },
+  "file_type_xamarin": {
+    "color": "cyan"
+  },
+  "file_type_yeoman": {
+    "color": "orange2"
+  },
+  "file_type_robot": {
+    "color": "yellow2"
+  },
+  "file_type_rollup": {
+    "color": "red2"
+  },
+  "file_type_rspec": {
+    "color": "red"
+  },
+  "file_type_rst": {
+    "color": "violet"
+  },
+  "file_type_sbt": {
+    "color": "brown"
+  },
+  "file_type_symfony": {
+    "color": "green2"
+  },
+  "file_type_swagger": {
+    "color": "purple"
+  },
+  "file_type_svn": {
+    "color": "blue"
+  },
+  "file_type_testjs": {
+    "color": "yellow2"
+  },
+  "file_type_testts": {
+    "color": "blue2"
+  },
+  "file_type_testpy": {
+    "color": "pink"
   },
   "file_type_julia": {
     "color": "purple",
@@ -786,7 +1018,7 @@
     ]
   },
   "file_type_markdown": {
-    "color": "graphite",
+    "color": "orange",
     "syntaxes": [
       {
         "name": "Markdown",
@@ -843,7 +1075,7 @@
   },
   "file_type_nodejs": {
     "color": "green",
-    "aliases":[
+    "aliases": [
       {
         "name": "Plain Text (NodeJS)",
         "extensions": [
@@ -941,7 +1173,7 @@
     ]
   },
   "file_type_php": {
-    "color": "blue",
+    "color": "violet",
     "syntaxes": [
       {
         "name": "PHP",
@@ -1116,7 +1348,7 @@
     ]
   },
   "file_type_python": {
-    "color": "yellow",
+    "color": "yellow2",
     "syntaxes": [
       {
         "name": "Python",
@@ -1133,8 +1365,8 @@
       }
     ]
   },
-  "file_type_rails": {
-    "color": "red",
+  "rails": {
+    "color": "purple",
     "syntaxes": [
       {
         "name": "Rails",
@@ -1203,7 +1435,7 @@
     ]
   },
   "file_type_scala": {
-    "color": "red",
+    "color": "green2",
     "syntaxes": [
       {
         "name": "Scala",
@@ -1269,7 +1501,7 @@
   },
   "file_type_sketch": {
     "color": "purple",
-    "aliases":[
+    "aliases": [
       {
         "name": "Plain Text (Sketch)",
         "extensions": [
@@ -1395,7 +1627,7 @@
     ]
   },
   "file_type_svg": {
-    "color": "orange",
+    "color": "yellow2",
     "aliases": [
       {
         "name": "XML (SVG)",
@@ -1409,7 +1641,7 @@
     ]
   },
   "file_type_swift": {
-    "color": "orange",
+    "color": "red2",
     "syntaxes": [
       {
         "name": "Swift",
@@ -1425,6 +1657,15 @@
         "scope": "source.tcl"
       }
     ]
+  },
+  "javascript": {
+    "color": "yellow"
+  },
+  "travis": {
+    "color": "pink2"
+  },
+  "appstore": {
+    "color": "cyan2"
   },
   "file_type_tern": {
     "color": "graphite",
@@ -1453,6 +1694,19 @@
   "file_type_text": {
     "color": "yellow"
   },
+  "mocha": {
+    "color": "brown"
+  },
+  "jira": {
+    "color": "blue2"
+  },
+  "yt": {
+    "color": "cyan",
+    "color2": "red2",
+    "color3": "purple",
+    "color4": "black"
+  },
+
   "file_type_textile": {
     "color": "pink",
     "syntaxes": [
@@ -1491,7 +1745,7 @@
   },
   "file_type_video": {
     "color": "purple",
-    "aliases":[
+    "aliases": [
       {
         "name": "Plain Text (Video)",
         "extensions": [
