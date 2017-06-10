@@ -1,4 +1,7 @@
 {
+  "sqlite": {
+    "color": "cyan"
+  },
   "test":{
     "color": "green"
   },
@@ -27,6 +30,38 @@
       }
     ]
   },
+  "chef": {
+    "color": "orange"
+  },
+  "cucumber": {
+    "color": "green"
+  },
+  "ejs": {
+    "color": "graphite"
+  },
+  "freemarker": {
+    "color": "blue"
+  },
+  "jinja": {
+    "color": "red"
+  },
+  "jupyter": {
+    "color": "orange2"
+  },
+  "phpunit": {
+    "color": "purple2"
+  },
+  "typings": {
+    "color": "paleblue"
+  },
+  "visio": {
+    "color": "blue2"
+  },
+  "vs": {
+    "color": "purple"
+  },
+
+
   "file_type_actionscript": {
     "color": "red",
     "syntaxes": [
