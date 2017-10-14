@@ -1,6 +1,93 @@
 {
+  "ahk": {
+    "color": "green"
+  },
   "sqlite": {
     "color": "cyan"
+  },
+  "apib": {
+    "color": "teal"
+  },
+  "objc": {
+    "color": "indigo"
+  },
+  "vhdl": {
+    "color": "graphite"
+  },
+  "testruby": {
+    "color": "red2"
+  },
+  "spring": {
+    "color": "green2"
+  },
+  "rst": {
+    "color": "brown"
+  },
+  "config": {
+    "color": "blue2"
+  },
+  "finder": {
+    "color": "cyan"
+  },
+  "jekyll": {
+    "color": "fuschia"
+  },
+  "mathematica": {
+    "color": "fuschia"
+  },
+  "maven": {
+    "color": "pink"
+  },
+  "reason": {
+    "color": "red"
+  },
+  "tomcat": {
+    "color": "yellow2"
+  },
+  "atom": {
+    "color": "green2"
+  },
+  "bean": {
+    "color": "brown"
+  },
+  "cabal": {
+    "color": "violet"
+  },
+  "compass": {
+    "color": "red"
+  },
+  "dylib": {
+    "color": "blue"
+  },
+  "ghostscript": {
+    "color": "graphite"
+  },
+  "godot": {
+    "color": "blue2"
+  },
+  "jquery": {
+    "color": "blue2"
+  },
+  "manpage": {
+    "color": "yellow2"
+  },
+  "mongodb": {
+    "color": "green"
+  },
+  "nib": {
+    "color": "brown"
+  },
+  "openoffice": {
+    "color": "yellow"
+  },
+  "patch": {
+    "color": "indigo"
+  },
+  "phalcon": {
+    "color": "green2"
+  },
+  "prettier": {
+    "color": "fuschia"
   },
   "test":{
     "color": "green"
@@ -70,6 +157,9 @@
         "scope": "source.actionscript"
       }
     ]
+  },
+  "testjava":{
+    "color": "purple"
   },
   "file_type_ae": {
     "color": "purple",
