@@ -147,8 +147,24 @@
   "vs": {
     "color": "purple"
   },
-
-
+  "appveyor": {
+    "color": "indigo"
+  },
+  "makefile": {
+    "color": "yellow"
+  },
+  "github":{
+    "color":"graphite"
+  },
+  "jsmin": {
+    "color": "yellow2"
+  },
+  "readme": {
+    "color": "white"
+  },
+  "doxygen": {
+    "color": "red2"
+  },
   "file_type_actionscript": {
     "color": "red",
     "syntaxes": [
